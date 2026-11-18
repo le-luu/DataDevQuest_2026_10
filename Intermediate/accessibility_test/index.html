@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Screen reader test pages</title>
+<style>
+  body { font-family: Segoe UI, system-ui, sans-serif; margin: 0 auto; padding: 16px; max-width: 1240px;
+         color: #1f2328; background: #ffffff; line-height: 1.5; }
+  h1 { font-size: 1.6rem; } h2 { font-size: 1.2rem; margin-top: 2rem; }
+  .how { color: #555; margin: 0 0 .5rem; }
+  .frame { border: 1px solid #d0d7de; border-radius: 6px; padding: 8px; overflow-x: auto; }
+  .frame svg { display: block; width: 100%; height: auto; }
+  details { background: #f6f8fa; border-radius: 6px; padding: 8px 12px; }
+  code { background: #f6f8fa; padding: 1px 4px; border-radius: 4px; }
+  table { border-collapse: collapse; } td, th { border: 1px solid #d0d7de; padding: 6px 10px; text-align: left; }
+</style>
+</head>
+<body>
+<h1>Screen reader test pages</h1>
+<p>Each page shows one chart as an inline SVG, so the screen reader reads its title (alt text) and description (summary).</p>
+<table>
+<thead><tr><th scope="col">SVG</th><th scope="col">Alt text</th></tr></thead>
+<tbody>
+<tr><td>Superstore_Product_East.svg</td><td>No alt text yet: run add_svg_accessibility_text first.</td></tr>
+<tr><td><a href="Superstore_Product_West.html">Superstore_Product_West.svg</a></td><td>Superstore Product Drilldown, West region: monthly sales heatmap by category 2022-2025 and sales vs. profit dot plot by product.</td></tr>
+</tbody>
+</table>
+<h2>How to test on Windows</h2>
+<ul>
+  <li><strong>Narrator</strong> (built in): press <kbd>Ctrl</kbd>+<kbd>Win</kbd>+<kbd>Enter</kbd> to turn it on or off. Press <kbd>H</kbd> to jump between headings and <kbd>Tab</kbd> to move between links. In scan mode, use the arrow keys to read each chart.</li>
+  <li><strong>NVDA</strong> (free, nvaccess.org): press <kbd>H</kbd> for headings and <kbd>G</kbd> to jump to the next graphic.</li>
+  <li>Edge and Chrome work best with both. Listen first, then open "Expected text" on each page to compare.</li>
+</ul>
+</body>
+</html>
