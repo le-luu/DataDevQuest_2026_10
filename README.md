@@ -8,7 +8,7 @@ Pablo Gomez
 
 ### Solution Video
 
-[![DDQ_2026_02](https://img.youtube.com/vi/n8_kODsYo20/0.jpg)](https://www.youtube.com/watch?v=n8_kODsYo20)
+[![DDQ_2026_02](https://img.youtube.com/vi/UPSoPiOJDUg/0.jpg)](https://www.youtube.com/watch?v=UPSoPiOJDUg)
 
 ## Beginner Challenge
 
